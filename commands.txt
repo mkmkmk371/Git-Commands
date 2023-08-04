@@ -1,0 +1,54 @@
+Certainly! Here's an extended list of 50 commonly used Git commands:
+
+1. **git init**: Initialize a new Git repository.
+2. **git clone [repository_url]**: Clone a remote repository to your local machine.
+3. **git add [file(s)]**: Stage changes for commit.
+4. **git commit -m "[commit_message]"**: Commit staged changes with a message.
+5. **git status**: View the status of your repository.
+6. **git pull**: Fetch and merge changes from a remote repository.
+7. **git push**: Push changes to a remote repository.
+8. **git branch**: List branches in the repository.
+9. **git checkout [branch_name/commit_hash]**: Switch to a different branch or commit.
+10. **git merge [branch_name]**: Merge changes from a different branch.
+11. **git fetch**: Retrieve changes from a remote repository.
+12. **git log**: Display commit history.
+13. **git diff**: Show differences between commits or files.
+14. **git stash**: Temporarily save changes that aren't ready to commit.
+15. **git remote add [remote_name] [repository_url]**: Add a remote repository.
+16. **git remote -v**: List remote repositories.
+17. **git rm [file(s)]**: Remove files from the repository.
+18. **git reset [file(s)]**: Unstage changes for the specified file(s).
+19. **git config**: Manage Git configuration settings.
+20. **git tag [tag_name]**: Create a tag for a commit.
+21. **git push --tags**: Push tags to a remote repository.
+22. **git show [commit_hash]**: Show information about a commit.
+23. **git blame [file]**: Show who last modified each line of a file.
+24. **git revert [commit_hash]**: Create a new commit that undoes changes from a previous commit.
+25. **git remote remove [remote_name]**: Remove a remote repository.
+26. **git remote rename [old_name] [new_name]**: Rename a remote repository.
+27. **git checkout -b [new_branch_name]**: Create and switch to a new branch.
+28. **git pull --rebase**: Fetch and reapply changes on top of your local changes.
+29. **git push origin --delete [branch_name]**: Delete a remote branch.
+30. **git config --global [user.name](http://user.name) "[Your Name]"**: Set your global username.
+31. **git config --global [user.email](http://user.email) "[your_email@example.com](http://your_email@example.com)"**: Set your global email.
+32. **git cherry-pick [commit_hash]**: Apply a specific commit to the current branch.
+33. **git rebase [base_branch]**: Reapply commits on top of another branch.
+34. **git log --oneline**: Display a condensed commit history.
+35. **git show-branch**: Show branches and their commits.
+36. **git reset --hard [commit_hash]**: Discard changes and move to a specific commit.
+37. **git clean -f**: Remove untracked files from the working directory.
+38. **git mv [old_path] [new_path]**: Move or rename files while preserving history.
+39. **git log -p**: Show detailed changes in commit history.
+40. **git log --author="[author_name]"**: Show commits by a specific author.
+41. **git log --grep="[search_term]"**: Show commits with specific commit messages.
+42. **git remote show [remote_name]**: Show information about a remote repository.
+43. **git config --global alias.[alias_name] "[command]"**: Create a shortcut alias for a command.
+44. **git bisect [start] [end]**: Find the commit that introduced a bug using binary search.
+45. **git commit --amend**: Amend the last commit with new changes or a new message.
+46. **git reflog**: Show a log of all changes to references (branches, HEAD, etc.).
+47. **git log --graph**: Show a visual graph of commit history.
+48. **git submodule add [repository_url] [path]**: Add a submodule to your repository.
+49. **git submodule update --init**: Initialize and update submodules.
+50. **git clean -fd**: Remove untracked files and directories forcefully.
+
+These commands should provide a more comprehensive understanding of how to use Git for various tasks in your development workflow.
